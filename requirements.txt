@@ -10,5 +10,6 @@ nltk
 PyYaml
 matplotlib
 torch
-
+ensure
+python-box
 -e .

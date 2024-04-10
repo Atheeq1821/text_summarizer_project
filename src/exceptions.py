@@ -14,8 +14,3 @@ class CustomeException(Exception):
     def __str__(self):
         return self.error_message
     
-if __name__ == '__main__':
-    try:
-        a=2/0
-    except Exception as e:
-        raise CustomeException(e,sys)
